@@ -13,6 +13,7 @@ def process_text(filepath, labels):
         text = "/n".join(f.readlines())
     labels = labels.split(",")
     print("Classifying text...")
+    print(text)
     results = call_classifier(text, labels)
     print(results)
 
