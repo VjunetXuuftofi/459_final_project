@@ -20,7 +20,10 @@ if USE_CROSS_ENCODER:
 def cross_encoder_entailment(info):
     scores = model.predict(
         [[info["text"], label] for label in info["labels"]])
-    return softmax(scores, axis=1)[:, 1]
+    results = {}
+    for label, score in zip(info["labels"], scores):
+        results[label] = float(softmax(score[:2], axis=0)[1])
+    return results
 
 
 # Another approach: few-shot learning with a GPT model. Try GPT-J, which has better performance. -----------------------
