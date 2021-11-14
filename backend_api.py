@@ -14,7 +14,7 @@ encoder_options = ['microsoft/deberta-v2-xxlarge-mnli', 'facebook/bart-large-mnl
 # Use entailment models to make the prediction. --------------------------------------------------------------------
 
 if USE_CROSS_ENCODER:
-    model = CrossEncoder('roberta-large-mnli')  # Use smaller model if you are using too much RAM. Roberta is not too large.
+    model = CrossEncoder('microsoft/deberta-v2-xxlarge-mnli')  # Use smaller model if you are using too much RAM. Roberta is not too large.
 
 
 def cross_encoder_entailment(info):
@@ -63,6 +63,8 @@ def few_shot_entailment(info):
 def classify():
     if request.method == 'POST':
         req = request.get_json()
+        text = req["text"]
+
         if USE_CROSS_ENCODER:
             results = cross_encoder_entailment(req)
         if USE_FEW_SHOT_GPT:

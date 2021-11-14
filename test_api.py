@@ -1,6 +1,10 @@
 import argparse
 import requests
 import json
+import nltk.data
+import nltk
+
+tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
 
 def call_classifier(info):
@@ -13,8 +17,11 @@ def process_text(filepath, labels):
     with open(filepath) as f:
         info = json.load(f)
     print("Classifying text...")
-    results = call_classifier(info)
-    print(results)
+    for line in tokenizer.tokenize(info["text"]):
+        print(line)
+        info["text"] = line
+        results = call_classifier(info)
+        print(results)
 
 
 if __name__ == "__main__":
