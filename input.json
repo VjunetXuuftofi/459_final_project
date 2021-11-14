@@ -1,11 +1,22 @@
 {
-  "few_shot":  {
+  "few_shot": {
     "profanity": [
-      ["What the hell do you mean?", 1],
-      ["I watched angrily as he swore at his friend.", 0],
-      ["I'm never going to do this shit again.", 1]
+      [
+        "What the hell do you mean?",
+        1
+      ],
+      [
+        "I watched angrily as he swore at his friend.",
+        0
+      ],
+      [
+        "I'm never going to do this shit again.",
+        1
+      ]
     ]
   },
   "text": "How are you doing?",
-  "labels": ["profanity"]
+  "labels": [
+    "profanity"
+  ]
 }

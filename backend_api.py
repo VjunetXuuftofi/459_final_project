@@ -5,8 +5,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # initialize our Flask application
 app = Flask(__name__)
-USE_CROSS_ENCODER = False
-USE_FEW_SHOT_GPT = True
+USE_CROSS_ENCODER = True
+USE_FEW_SHOT_GPT = False
 
 encoder_options = ['microsoft/deberta-v2-xxlarge-mnli', 'facebook/bart-large-mnli', 'microsoft/deberta-v2-xlarge-mnli',
                    'roberta-large-mnli', "valhalla/distilbart-mnli-12-9"]
@@ -14,7 +14,7 @@ encoder_options = ['microsoft/deberta-v2-xxlarge-mnli', 'facebook/bart-large-mnl
 # Use entailment models to make the prediction. --------------------------------------------------------------------
 
 if USE_CROSS_ENCODER:
-    model = CrossEncoder(encoder_options[0])  # Use smaller model if you are using too much RAM. Roberta is not too large.
+    model = CrossEncoder('roberta-large-mnli')  # Use smaller model if you are using too much RAM. Roberta is not too large.
 
 
 def cross_encoder_entailment(info):
@@ -60,7 +60,11 @@ def few_shot_entailment(info):
 def classify():
     if request.method == 'POST':
         req = request.get_json()
-        results = few_shot_entailment(req)
+        if USE_CROSS_ENCODER:
+            results = cross_encoder_entailment(req)
+        if USE_FEW_SHOT_GPT:
+            results = few_shot_entailment(req)
+
         return jsonify(results)
 
 
