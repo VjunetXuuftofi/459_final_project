@@ -1,0 +1,10 @@
+Awesome dog food.
+{'Boston likes the dog food.': 0.9971306324005127, 'Somebody is happy.': 0.9922069311141968, 'Somebody is mad.': 0.7251278162002563}
+However, when given to my Boston, who has severe reactions to some food ingredients; his itching increased to violent jumping out of bed at night, scratching.
+{'Boston likes the dog food.': 0.13197655975818634, 'Somebody is happy.': 0.08857520669698715, 'Somebody is mad.': 0.9936318397521973}
+As soon as I changed to a different formula, the scratching stopped.
+{'Boston likes the dog food.': 0.9325547814369202, 'Somebody is happy.': 0.8148993253707886, 'Somebody is mad.': 0.9965388774871826}
+So glad Natural Balance has other choices.
+{'Boston likes the dog food.': 0.9511165618896484, 'Somebody is happy.': 0.9839165806770325, 'Somebody is mad.': 0.5769228339195251}
+I guess you have to try each, until you find what's best for your pet.
+{'Boston likes the dog food.': 0.993042528629303, 'Somebody is happy.': 0.9693690538406372, 'Somebody is mad.': 0.9410509467124939}

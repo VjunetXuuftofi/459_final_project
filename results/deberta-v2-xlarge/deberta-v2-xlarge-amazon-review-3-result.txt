@@ -1,0 +1,24 @@
+McCann's Instant Oatmeal is great if you must have your oatmeal but can only scrape together two or three minutes to prepare it.
+{'McCann is the best instant oatmeal.': 0.9991792440414429, 'McCann is the best oatmeal.': 0.9967434406280518, "McCann's instant oatmeal is a good product.": 0.991969108581543, "McCann's oatmeal is not that great.": 0.07631458342075348, "McCann's oatmeal is perfect.": 0.926647961139679}
+There is no escaping the fact, however, that even the best instant oatmeal is nowhere near as good as even a store brand of oatmeal requiring stovetop preparation.
+{'McCann is the best instant oatmeal.': 0.9948994517326355, 'McCann is the best oatmeal.': 0.9873145818710327, "McCann's instant oatmeal is a good product.": 0.9957300424575806, "McCann's oatmeal is not that great.": 0.9855433702468872, "McCann's oatmeal is perfect.": 0.9535571932792664}
+Still, the McCann's is as good as it gets for instant oatmeal.
+{'McCann is the best instant oatmeal.': 0.9846823811531067, 'McCann is the best oatmeal.': 0.9885601997375488, "McCann's instant oatmeal is a good product.": 0.9792954325675964, "McCann's oatmeal is not that great.": 0.0026046261191368103, "McCann's oatmeal is perfect.": 0.9599090814590454}
+It's even better than the organic, all-natural brands I have tried.
+{'McCann is the best instant oatmeal.': 0.9954869747161865, 'McCann is the best oatmeal.': 0.9944238066673279, "McCann's instant oatmeal is a good product.": 0.9965983033180237, "McCann's oatmeal is not that great.": 0.05024828016757965, "McCann's oatmeal is perfect.": 0.9926930665969849}
+All the varieties in the McCann's variety pack taste good.
+{'McCann is the best instant oatmeal.': 0.9964134097099304, 'McCann is the best oatmeal.': 0.9979797601699829, "McCann's instant oatmeal is a good product.": 0.9882488250732422, "McCann's oatmeal is not that great.": 0.45282796025276184, "McCann's oatmeal is perfect.": 0.9810822606086731}
+It can be prepared in the microwave or by adding boiling water so it is convenient in the extreme when time is an issue.
+{'McCann is the best instant oatmeal.': 0.9981377124786377, 'McCann is the best oatmeal.': 0.9928727149963379, "McCann's instant oatmeal is a good product.": 0.99910968542099, "McCann's oatmeal is not that great.": 0.6310147643089294, "McCann's oatmeal is perfect.": 0.9934905767440796}
+McCann's use of actual cane sugar instead of high fructose corn syrup helped me decide to buy this product.
+{'McCann is the best instant oatmeal.': 0.9977918267250061, 'McCann is the best oatmeal.': 0.9914600849151611, "McCann's instant oatmeal is a good product.": 0.9978470206260681, "McCann's oatmeal is not that great.": 0.8010305762290955, "McCann's oatmeal is perfect.": 0.9791877269744873}
+Real sugar tastes better and is not as harmful as the other stuff.
+{'McCann is the best instant oatmeal.': 0.9473536014556885, 'McCann is the best oatmeal.': 0.9386842846870422, "McCann's instant oatmeal is a good product.": 0.978301465511322, "McCann's oatmeal is not that great.": 0.8852100372314453, "McCann's oatmeal is perfect.": 0.811923623085022}
+One thing I do not like, though, is McCann's use of thickeners.
+{'McCann is the best instant oatmeal.': 0.8688181638717651, 'McCann is the best oatmeal.': 0.8671001195907593, "McCann's instant oatmeal is a good product.": 0.9382109045982361, "McCann's oatmeal is not that great.": 0.9882886409759521, "McCann's oatmeal is perfect.": 0.011904162354767323}
+Oats plus water plus heat should make a creamy, tasty oatmeal without the need for guar gum.
+{'McCann is the best instant oatmeal.': 0.9952035546302795, 'McCann is the best oatmeal.': 0.9964766502380371, "McCann's instant oatmeal is a good product.": 0.9977818727493286, "McCann's oatmeal is not that great.": 0.8460643887519836, "McCann's oatmeal is perfect.": 0.9939126968383789}
+But this is a convenience product.
+{'McCann is the best instant oatmeal.': 0.998152494430542, 'McCann is the best oatmeal.': 0.9803555011749268, "McCann's instant oatmeal is a good product.": 0.9989795684814453, "McCann's oatmeal is not that great.": 0.9113464951515198, "McCann's oatmeal is perfect.": 0.9405517578125}
+Maybe the guar gum is why, after sitting in the bowl a while, the instant McCann's becomes too thick and gluey.
+{'McCann is the best instant oatmeal.': 0.8855239152908325, 'McCann is the best oatmeal.': 0.807893693447113, "McCann's instant oatmeal is a good product.": 0.8434512615203857, "McCann's oatmeal is not that great.": 0.9386600255966187, "McCann's oatmeal is perfect.": 0.0033716976176947355}

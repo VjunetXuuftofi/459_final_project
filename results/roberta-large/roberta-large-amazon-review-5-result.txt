@@ -1,0 +1,8 @@
+This was the second time I've ordered Buzzworthy through Amazon.
+{'Buzzworthy is good.': 0.99718177318573, 'Someone is dissapointed.': 0.9463790059089661, 'Someone likes Buzzworthy coffee.': 0.9918084740638733, 'Someone likes instant coffee.': 0.6951099634170532}
+The first time they were in a gold package and were wonderful.
+{'Buzzworthy is good.': 0.8555187582969666, 'Someone is dissapointed.': 0.12152960896492004, 'Someone likes Buzzworthy coffee.': 0.7426162362098694, 'Someone likes instant coffee.': 0.7292133569717407}
+This time they were in a black package and were so weak we had to put instant coffee in our cups.
+{'Buzzworthy is good.': 0.3365907073020935, 'Someone is dissapointed.': 0.9956275820732117, 'Someone likes Buzzworthy coffee.': 0.7411073446273804, 'Someone likes instant coffee.': 0.9498940110206604}
+Yikes.
+{'Buzzworthy is good.': 0.007471020333468914, 'Someone is dissapointed.': 0.9973233342170715, 'Someone likes Buzzworthy coffee.': 0.4038231670856476, 'Someone likes instant coffee.': 0.5670979619026184}

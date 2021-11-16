@@ -1,0 +1,25 @@
+{
+    "few_shot": {
+      "profanity": [
+        [
+          "What the hell do you mean?",
+          1
+        ],
+        [
+          "I watched angrily as he swore at his friend.",
+          0
+        ],
+        [
+          "I'm never going to do this shit again.",
+          1
+        ]
+      ]
+    },
+    "text": "This was the second time I've ordered Buzzworthy through Amazon. The first time they were in a gold package and were wonderful. This time they were in a black package and were so weak we had to put instant coffee in our cups. Yikes.",
+    "labels": [
+      "Someone is dissapointed.",
+      "Buzzworthy is good.",
+      "Someone likes instant coffee.",
+      "Someone likes Buzzworthy coffee."
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "few_shot": {
+      "profanity": [
+        [
+          "What the hell do you mean?",
+          1
+        ],
+        [
+          "I watched angrily as he swore at his friend.",
+          0
+        ],
+        [
+          "I'm never going to do this shit again.",
+          1
+        ]
+      ]
+    },
+    "text": "I have never been a huge coffee fan. However, my mother purchased this little machine and talked me into trying the Latte Macciato. No Coffee Shop has a better one and I like most of the other products, too (as a usually non-coffee drinker!). The little Dolche Guesto Machine is super easy to use and prepares a really good Coffee/Latte/Cappuccino/etc in less than a minute (if water is heated up). I would recommend the Dolce Gusto to anyone. Too good for the price and I'am getting one myself! :)",
+    "labels": [
+      "They like coffee.",
+      "The Dolce Gusto is easy to use.",
+      "They do not like the coffee machine."
+    ]
+  }

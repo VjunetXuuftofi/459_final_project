@@ -1,0 +1,8 @@
+Great taffy at a great price.
+{'Somebody is content.': 0.9767904877662659, 'Somebody is displeased.': 0.9523874521255493}
+There was a wide assortment of yummy taffy.
+{'Somebody is content.': 0.9055176973342896, 'Somebody is displeased.': 0.9706753492355347}
+Delivery was very quick.
+{'Somebody is content.': 0.970005452632904, 'Somebody is displeased.': 0.9743004441261292}
+If your a taffy lover, this is a deal.
+{'Somebody is content.': 0.9256954193115234, 'Somebody is displeased.': 0.9549956917762756}

@@ -1,0 +1,14 @@
+I have never been a huge coffee fan.
+{'The Dolce Gusto is easy to use.': 0.9615740776062012, 'They do not like the coffee machine.': 0.9955004453659058, 'They like coffee.': 0.11313170939683914}
+However, my mother purchased this little machine and talked me into trying the Latte Macciato.
+{'The Dolce Gusto is easy to use.': 0.9984884858131409, 'They do not like the coffee machine.': 0.033735793083906174, 'They like coffee.': 0.9970505237579346}
+No Coffee Shop has a better one and I like most of the other products, too (as a usually non-coffee drinker!).
+{'The Dolce Gusto is easy to use.': 0.9996381402015686, 'They do not like the coffee machine.': 0.05678895488381386, 'They like coffee.': 0.8895918130874634}
+The little Dolche Guesto Machine is super easy to use and prepares a really good Coffee/Latte/Cappuccino/etc in less than a minute (if water is heated up).
+{'The Dolce Gusto is easy to use.': 0.9561451077461243, 'They do not like the coffee machine.': 0.002528127981349826, 'They like coffee.': 0.9995354413986206}
+I would recommend the Dolce Gusto to anyone.
+{'The Dolce Gusto is easy to use.': 0.9997091889381409, 'They do not like the coffee machine.': 0.01714211516082287, 'They like coffee.': 0.940827488899231}
+Too good for the price and I'am getting one myself!
+{'The Dolce Gusto is easy to use.': 0.9992592930793762, 'They do not like the coffee machine.': 0.31574195623397827, 'They like coffee.': 0.9878659844398499}
+:)
+{'The Dolce Gusto is easy to use.': 0.9880120158195496, 'They do not like the coffee machine.': 0.9564303159713745, 'They like coffee.': 0.9416313767433167}
