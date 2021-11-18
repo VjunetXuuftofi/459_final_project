@@ -20,5 +20,12 @@
       "Boston likes the dog food.",
       "Somebody is mad.",
       "Somebody is happy."
+    ],
+    "gt": [
+      [0, 0, 1],
+      [0, 0, 0],
+      [0, 0, 0],
+      [0, 0, 1],
+      [0, 0, 0]
     ]
   }

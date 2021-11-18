@@ -21,5 +21,11 @@
       "Buzzworthy is good.",
       "Someone likes instant coffee.",
       "Someone likes Buzzworthy coffee."
+    ],
+    "gt": [
+      [0, 1, 0, 0],
+      [0, 0, 0, 0],
+      [1, 0, 0, 0],
+      [1, 0, 0, 0]
     ]
   }

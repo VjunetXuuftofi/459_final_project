@@ -19,5 +19,11 @@
     "labels": [
       "Somebody is content.",
       "Somebody is displeased."
+    ],
+    "gt": [
+      [1, 0],
+      [1, 0],
+      [1, 0],
+      [1, 0]
     ]
   }

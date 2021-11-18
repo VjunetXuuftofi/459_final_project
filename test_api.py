@@ -3,7 +3,10 @@ import requests
 import json
 import nltk.data
 import nltk
+import numpy as np
 from pathlib import Path
+import matplotlib.pyplot as plt
+import math
 
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
@@ -17,9 +20,31 @@ def process_text(filepath, labels, model):
     print("Loading file...")
     with open("test/"+filepath, encoding='utf-8') as f:
         info = json.load(f)
-    output = open("results/{}/{}-{}-result.txt".format(model, model, Path(filepath).stem), "w+", encoding='utf-8')
 
+    result_file = "{}-{}".format(model, Path(filepath).stem)
+    output = open("results/{}/".format(model) + result_file + "-result.txt", "w+", encoding='utf-8')
+    probs = get_probs(output, info)
+
+    fpr, tpr, thresholds = calc_rates(probs, info)
+
+    index = get_best_threshold_index(fpr, tpr)
+
+    plot_roc_curve(fpr, tpr, model, result_file, index, thresholds[index])
+
+
+def get_best_threshold_index(fpr, tpr):
+    min_dist = math.inf
+    for i in range(len(tpr)):
+        dist = np.linalg.norm(np.array((0, 1)) - np.array((fpr[i], tpr[i])))
+        if dist < min_dist:
+            index = i
+            min_dist = dist
+    return index
+
+
+def get_probs(output, info):
     print("Classifying text...")
+    probs = []
     for line in tokenizer.tokenize(info["text"]):
         print(line)
         info["text"] = line
@@ -27,6 +52,40 @@ def process_text(filepath, labels, model):
         print(results)
         output.write(line + "\n")
         output.write(str(results) + "\n")
+        probs += list(results.values())
+    return probs
+
+
+def calc_rates(probs, info):
+    thresholds = [x/100.0 for x in range(0,100,2)]
+    fpr = []
+    tpr = []
+    target = []
+    for arr in info["gt"]:
+        target += arr
+    target = np.array(target)
+    for t in thresholds:
+        prediction = np.zeros(len(probs))
+        prediction[np.array(probs) > t] = 1
+        prediction = prediction.astype(int)
+
+        current_tpr = np.sum(prediction & target) / np.sum(target)
+        current_fpr = np.sum(prediction & (1 - target)) / np.sum(1 - target)
+
+        tpr.append(current_tpr)
+        fpr.append(current_fpr)
+    return fpr, tpr, thresholds
+
+
+def plot_roc_curve(fpr, tpr, model, result_file, index, best_threshold):
+    plt.plot(fpr, tpr)
+    plt.scatter(fpr[index], tpr[index], s=20, c='r')
+    plt.xlabel('False positive rate')
+    plt.ylabel('True positive rate')
+    plt.xlim([0,1])
+    plt.ylim([0,1])
+    plt.title('ROC {} t={}'.format(result_file, best_threshold))
+    plt.savefig("results/{}/roc_plots/{}.png".format(model, result_file))
 
 
 if __name__ == "__main__":

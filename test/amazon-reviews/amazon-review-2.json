@@ -20,5 +20,14 @@
       "They like coffee.",
       "The Dolce Gusto is easy to use.",
       "They do not like the coffee machine."
+    ],
+    "gt": [
+      [0, 0, 0],
+      [0, 0, 0],
+      [0, 0, 0],
+      [1, 1, 0],
+      [0, 0, 0],
+      [0, 0, 0],
+      [0, 0, 0]
     ]
   }
