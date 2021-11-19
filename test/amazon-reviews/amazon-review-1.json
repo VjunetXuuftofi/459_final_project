@@ -18,12 +18,15 @@
     "text": "Great taffy at a great price.  There was a wide assortment of yummy taffy.  Delivery was very quick.  If your a taffy lover, this is a deal.",
     "labels": [
       "Somebody is content.",
-      "Somebody is displeased."
+      "Somebody is displeased.",
+      "Taffy is mentioned.",
+      "Someone got a good deal",
+      "Good food is mentioned",
+      "Someone is mad",
+      "Someone hates something",
+      "Someone talks about popcorn."
     ],
     "gt": [
-      [1, 0],
-      [1, 0],
-      [1, 0],
-      [1, 0]
+      [1, 0, 1, 1, 1, 0, 0, 0]
     ]
   }
