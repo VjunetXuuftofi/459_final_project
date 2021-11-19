@@ -70,15 +70,15 @@ def get_best_threshold_index(fpr, tpr):
 def get_probs(output, info):
     print("Classifying text...")
     probs = []
-    for line in tokenizer.tokenize(info["text"]):
-        print(line)
-        info["text"] = line
-        results = call_classifier(info)
-        print(results)
-        if output:
-            output.write(line + "\n")
-            output.write(str(results) + "\n")
-        probs += list(results.values())
+    # for line in tokenizer.tokenize(info["text"]):
+    #     print(line)
+    #     info["text"] = line
+    results = call_classifier(info)
+    print(results)
+    if output:
+        output.write(info["text"] + "\n")
+        output.write(str(results) + "\n")
+    probs += list(results.values())
     return probs
 
 
