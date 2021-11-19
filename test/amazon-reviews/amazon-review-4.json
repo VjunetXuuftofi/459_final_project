@@ -17,15 +17,16 @@
     },
     "text": "Awesome dog food. However, when given to my Boston, who has severe reactions to some food ingredients; his itching increased to violent jumping out of bed at night, scratching. As soon as I changed to a different formula, the scratching stopped. So glad Natural Balance has other choices. I guess you have to try each, until you find what's best for your pet.",
     "labels": [
-      "Boston likes the dog food.",
-      "Somebody is mad.",
-      "Somebody is happy."
+      "Allergies are mentioned.",
+      "A dog is in distress.",
+      "A customer is satisfied.",
+      "A brand is mentioned.",
+      "Somebody has a dog.",
+      "Somebody has a cat.",
+      "Somebody's cat has an allergic reaction.",
+      "A person has bad itching."
     ],
     "gt": [
-      [0, 0, 1],
-      [0, 0, 0],
-      [0, 0, 0],
-      [0, 0, 1],
-      [0, 0, 0]
+      [1, 1, 1, 1, 1, 0, 0, 0]
     ]
   }
