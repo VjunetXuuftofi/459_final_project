@@ -17,15 +17,17 @@
     },
     "text": "This was the second time I've ordered Buzzworthy through Amazon. The first time they were in a gold package and were wonderful. This time they were in a black package and were so weak we had to put instant coffee in our cups. Yikes.",
     "labels": [
-      "Someone is dissapointed.",
-      "Buzzworthy is good.",
-      "Someone likes instant coffee.",
-      "Someone likes Buzzworthy coffee."
+      "Someone is disappointed.",
+      "Someone talks about buying something",
+      "Someone likes Buzzworthy coffee.",
+      "A color is mentioned.",
+      "Somebody is in a swamp.",
+      "Somebody is in a tree.",
+      "Somebody drinks coffee.",
+      "Online shopping is mentioned.",
+      "A customer is dissatisfied."
     ],
     "gt": [
-      [0, 1, 0, 0],
-      [0, 0, 0, 0],
-      [1, 0, 0, 0],
-      [1, 0, 0, 0]
+      [1, 1, 0, 1, 0, 0, 1, 1, 1]
     ]
   }
