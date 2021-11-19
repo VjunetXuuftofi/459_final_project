@@ -83,7 +83,7 @@ def get_probs(output, info):
 
 
 def calc_rates(probs, target):
-    thresholds = [x/100.0 for x in range(0,100,2)]
+    thresholds = [x/100.0 for x in range(0,101,2)]
     fpr = []
     tpr = []
     
